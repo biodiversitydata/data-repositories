@@ -1,0 +1,89 @@
+## Flux and stocks
+
+![](images/image-Flux_dispositifs_SI.png){width=70% fig-align="center"}
+
+
+
+## Flux and stocks
+
+**Sharing data and metadata from research activities requires making them available in repositories.**
+
+It is recommended to prioritize deposits in **trusted thematic repositories** (eg. InDoRES, SEANOE, ...), or failing that in **institutional repositories** (eg. Data SUD, CIRAD Dataverse, ...), or failing that, in **generic repositories** such as [the Recherche Data Gouv repository](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv). Resources exist for choosing the adapted and recommended data repository.
+
+<br />
+
+:::: {.columns}
+
+::: {.column width=30%}
+
+![**Source:** [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)](images/image-selection-entrepot.jpg){width=78%}
+:::
+
+::: {.column width=39%}
+![**Source:** [Norvez *et al.*(2024)](https://mnhn.hal.science/mnhn-04296424/)](images/image-logigrammeFluxSI.png){width=100%}
+:::
+
+::: {.column width=30%}
+![**Source:** [Recherche Data Gouv (2024)](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv)](images/image-logigramme-rdg.jpg){width=65%}
+:::
+
+::::
+
+
+## Example of thematic / institutional repositories (France)
+
+| Repositories names    | Supporting by    | thematic, institutional, generic    | disciplinary fields    | Accepted data (keywords)   | embargo    | Persistent identifier    | Volume limit    |
+|:------------|:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
+| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 or 5 GB soon  |
+| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | yes (2 years max.) | DOI  | 5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume  |
+| [SEANOE](https://www.seanoe.org/) | Ifremer | thematic (and institutional) | Oceanography | Georeferenced marine data | yes (2 years max.) | DOI  | 100 GB  |
+| [Data SUD](https://dataverse.ird.fr/) | IRD | institutional | all fields covered by IRD agents | ??? | ???  | DOI  | ???  |
+| [GBIF](https://www.gbif.org/) | the international GBIF community | thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | yes | DOI  | no  |
+| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | generic | all fields | all | yes | DOI  | ???  |
+
+: Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
+
+
+
+## Catalog and metacatalog: From raw data to indicators
+
+![](images/temporaire_fluxStock_PNDB.jpg){width=80% fig-align="center"}
+
+
+## Catalog and metacatalog: From raw data to indicators
+
+![](images/temporaire_fluxStock_THEIA.png){width=80% fig-align="center"}
+
+
+## International repositories
+
+<br />
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/figshare_logo.png){width=60% fig-align="left"}
+:::
+
+::: {.column width=50%}
+![](images/zenodo_logo.png){width=60% fig-align="left"}
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width=50%}
+::: {.small}
+<https://info.figshare.com/>
+:::
+:::
+
+::: {.column width=50%}
+::: {.small}
+<https://zenodo.org/>
+:::
+:::
+
+::::

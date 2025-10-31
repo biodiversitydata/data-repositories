@@ -3,7 +3,7 @@ from: markdown+emoji
 format:
   revealjs:
     logo: images/logo-affiliation.png
-    footer: "{{< fa brands github >}} &nbsp;[`biodiversitydata/quarto-template`](https://github.com/biodiversitydata/quarto-template) &nbsp; &bull; &nbsp; {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} &nbsp;[`cc-by-4.0`](https://creativecommons.org/licenses/by/4.0/deed.en)"
+    footer: "{{< fa brands github >}} &nbsp;[`biodiversitydata/data-repositories`](https://github.com/biodiversitydata/data-repositories) &nbsp; &bull; &nbsp; {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} &nbsp;[`cc-by-4.0`](https://creativecommons.org/licenses/by/4.0/deed.en)"
     smaller: true
     auto-stretch: false
     chalkboard: true
@@ -22,13 +22,13 @@ engine: knitr
 <!-- Insert section 'Table of contents' -->
 
 ```{r}
-#| child: "sections/table-of-contents.qmd"
+#| child: "sections/data-lifecycle.qmd"
 ```
 
 
 <!-- Insert section 'Quarto basics' -->
 
 ```{r}
-#| child: "sections/quarto-basics.qmd"
+#| child: "sections/main.qmd"
 ```
 
