@@ -34,7 +34,7 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 | Repositories names    | Supporting by    | thematic, institutional, generic    | disciplinary fields    | Accepted data (keywords)   | embargo    | Persistent identifier    | Volume limit    |
 |:------------|:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
-| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 or 5 GB soon  |
+| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 / 5 |
 | [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | yes (2 years max.) | DOI  | 5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume  |
 | [SEANOE](https://www.seanoe.org/) | Ifremer | thematic (and institutional) | Oceanography | Georeferenced marine data | yes (2 years max.) | DOI  | 100 GB  |
 | [Data SUD](https://dataverse.ird.fr/) | IRD | institutional | all fields covered by IRD agents | ??? | ???  | DOI  | ???  |
