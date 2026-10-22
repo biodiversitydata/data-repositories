@@ -6,12 +6,12 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+  <meta name="generator" content="quarto-1.10.19">
 
   <title>Data repositories</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,10 +20,16 @@
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -32,7 +38,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-75247edad2439bcea84e94fdfeaade56.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-a4b1e381cf74995ef0fd36d96b3df04f.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -148,7 +154,7 @@
 <p>Share and use data and metadata</p>
 </div>
 <div class="date">
-<p>November 2025</p>
+<p>October 2026</p>
 </div>
 <div class="columns authors">
 <div class="column author" style="width:32%;">
@@ -241,84 +247,85 @@ Author name<br/>
 </section>
 <section id="example-of-thematic-institutional-repositories-france" class="slide level2">
 <h2>Example of thematic / institutional repositories (France)</h2>
+<p><br></p>
 <table class="caption-top">
-<caption>Table 1: Examples of biodiversity and environmental data repositories, from <a href="https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/">Ouvrir la science (2024)</a> and adapted</caption>
+<caption>Table 1: Examples of biodiversity and environmental data repositories<sup>1</sup></caption>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Repositories names</th>
+<th style="text-align: left;">Repository</th>
 <th style="text-align: center;">Supporting by</th>
-<th style="text-align: right;">thematic, institutional, generic</th>
-<th style="text-align: right;">disciplinary fields</th>
-<th style="text-align: right;">Accepted data (keywords)</th>
-<th style="text-align: right;">embargo</th>
-<th style="text-align: right;">Persistent identifier</th>
-<th style="text-align: right;">Volume limit</th>
+<th style="text-align: center;">Type</th>
+<th style="text-align: left;">Disciplinary fields</th>
+<th style="text-align: left;">Accepted data (keywords)</th>
+<th style="text-align: center;">Embargo</th>
+<th style="text-align: center;">Persistent identifier</th>
+<th style="text-align: left;">Volume limit</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://www.indores.fr/">InDoRES</a></td>
 <td style="text-align: center;">CNRS-Ecology, MNHN</td>
-<td style="text-align: right;">thematic ( and institutional)</td>
-<td style="text-align: right;">Ecology, Environment, Bio-archaeology</td>
-<td style="text-align: right;">Environmental, ecological and geographical data</td>
-<td style="text-align: right;">yes</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">2 GB per data set but planned to increase to 4 / 5</td>
+<td style="text-align: center;">Thematic &amp; Institutional</td>
+<td style="text-align: left;">Ecology, Environment, Bio-archaeology</td>
+<td style="text-align: left;">Environmental, ecological and geographical data</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">2 GB per data set</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://www.easydata.earth/">EaSy Data</a></td>
 <td style="text-align: center;">Data Terra, BRGM</td>
-<td style="text-align: right;">thematic</td>
-<td style="text-align: right;">Earth and Environmental Sciences</td>
-<td style="text-align: right;">Long tail data from the earth system and environment (example: project issues)</td>
-<td style="text-align: right;">yes (2 years max.)</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume</td>
+<td style="text-align: center;">Thematic</td>
+<td style="text-align: left;">Earth and Environmental Sciences</td>
+<td style="text-align: left;">Long tail data from the earth system and environment (example: project issues)</td>
+<td style="text-align: center;">Yes<br>(&lt; 2 yr)</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">5 GB per file, 100 GB per deposit</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://www.seanoe.org/">SEANOE</a></td>
 <td style="text-align: center;">Ifremer</td>
-<td style="text-align: right;">thematic (and institutional)</td>
-<td style="text-align: right;">Oceanography</td>
-<td style="text-align: right;">Georeferenced marine data</td>
-<td style="text-align: right;">yes (2 years max.)</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">100 GB</td>
+<td style="text-align: center;">Thematic &amp; Institutional</td>
+<td style="text-align: left;">Oceanography</td>
+<td style="text-align: left;">Georeferenced marine data</td>
+<td style="text-align: center;">Yes<br>(&lt; 2 yr)</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">100 GB</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://dataverse.ird.fr/">Data SUD</a></td>
 <td style="text-align: center;">IRD</td>
-<td style="text-align: right;">institutional</td>
-<td style="text-align: right;">all fields covered by IRD agents</td>
-<td style="text-align: right;">???</td>
-<td style="text-align: right;">???</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">???</td>
+<td style="text-align: center;">Institutional</td>
+<td style="text-align: left;">All fields covered by IRD agents</td>
+<td style="text-align: left;">???</td>
+<td style="text-align: center;">???</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">???</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://www.gbif.org/">GBIF</a></td>
-<td style="text-align: center;">the international GBIF community</td>
-<td style="text-align: right;">thematic</td>
-<td style="text-align: right;">Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems</td>
-<td style="text-align: right;">Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards.</td>
-<td style="text-align: right;">yes</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">no</td>
+<td style="text-align: center;">International GBIF community</td>
+<td style="text-align: center;">Thematic</td>
+<td style="text-align: left;">Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems</td>
+<td style="text-align: left;">Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards.</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">no</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv">Recherche Data Gouv</a></td>
 <td style="text-align: center;">Recherche Data Gouv</td>
-<td style="text-align: right;">generic</td>
-<td style="text-align: right;">all fields</td>
-<td style="text-align: right;">all</td>
-<td style="text-align: right;">yes</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">???</td>
+<td style="text-align: center;">Generic</td>
+<td style="text-align: left;">All fields</td>
+<td style="text-align: left;">All</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">???</td>
 </tr>
 </tbody>
 </table>
-</section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Adapted from <a href="https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/">Ouvrir la science (2024)</a></p></li></ol></aside></section>
 <section id="catalog-and-metacatalog-from-raw-data-to-indicators" class="slide level2">
 <h2>Catalog and metacatalog: From raw data to indicators</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -364,6 +371,7 @@ Author name<br/>
 </div></div>
 
 </section>
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/logo-affiliation.png" class="slide-logo"></p>
