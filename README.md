@@ -82,7 +82,7 @@ To understand the file organisation of this repository, please read this [Wiki](
 
 ## Citation
 
-Norvez O & Le Bras Y (2025) Biodiversity data repositories: Share and use data and metadata. Online presentation available at <https://github.com/biodiversitydata/data-repositories/>.
+Norvez O & Le Bras Y (2026) _Biodiversity data repositories: Share and use data and metadata_. Online presentation available at <https://github.com/biodiversitydata/data-repositories/>.
 
 
 ## Contributing

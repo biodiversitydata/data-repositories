@@ -32,16 +32,21 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ## Example of thematic / institutional repositories (France)
 
-| Repositories names    | Supporting by    | thematic, institutional, generic    | disciplinary fields    | Accepted data (keywords)   | embargo    | Persistent identifier    | Volume limit    |
-|:------------|:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
-| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 / 5 |
-| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | yes (2 years max.) | DOI  | 5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume  |
-| [SEANOE](https://www.seanoe.org/) | Ifremer | thematic (and institutional) | Oceanography | Georeferenced marine data | yes (2 years max.) | DOI  | 100 GB  |
-| [Data SUD](https://dataverse.ird.fr/) | IRD | institutional | all fields covered by IRD agents | ??? | ???  | DOI  | ???  |
-| [GBIF](https://www.gbif.org/) | the international GBIF community | thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | yes | DOI  | no  |
-| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | generic | all fields | all | yes | DOI  | ???  |
+<br/>
 
-: Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
+| Repository    | Supporting by    | Type    | Disciplinary fields    | Accepted data (keywords)   | Embargo    | Persistent identifier    | Volume limit    |
+|:------------|:-----------:|:-----------:|:-----------|:-----------|:-----------:|:-----------:|:-----------|
+| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | Thematic & Institutional | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | Yes | DOI  |2 GB per data set  |
+| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | Thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | Yes<br/>(< 2 yr) | DOI  | 5 GB per file, 100 GB per deposit  |
+| [SEANOE](https://www.seanoe.org/) | Ifremer | Thematic & Institutional | Oceanography | Georeferenced marine data | Yes<br/>(< 2 yr) | DOI  | 100 GB  |
+| [Data SUD](https://dataverse.ird.fr/) | IRD | Institutional | All fields covered by IRD agents | ??? | ???  | DOI  | ???  |
+| [GBIF](https://www.gbif.org/) | International GBIF community | Thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | Yes | DOI  | no  |
+| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | Generic | All fields | All | Yes | DOI  | ???  |
+
+: Table 1: Examples of biodiversity and environmental data repositories[^ouvrir]
+
+[^ouvrir]: Adapted from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
+
 
 
 
